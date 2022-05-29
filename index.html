@@ -14,12 +14,17 @@
     <p>最大値
         <input id="max" type="number" />
     </p>
-    <p>生成数
-        <input id="num" type="number" />
-    </p>
+    <span id="switch">
+        <p>生成数
+            <input id="num" type="number" />
+        </p>
+    </span>
     <button onclick="start()">生成</button>
+    <label>
+        <input id="cb" type="checkbox" />１つずつ
+    </label>
 
-    <div id="display">
+    <div id="display" onclick="next()">
     </div>
 
 </body>
