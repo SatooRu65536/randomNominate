@@ -96,3 +96,7 @@ function next() {
         }
     }
 }
+
+document.addEventListener('keypress', (event) => {
+    next()
+  });
